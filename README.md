@@ -1,2 +1,2 @@
 # freecodecamp.org-lesson
-repository to store element from freecodecamp
+repository to store element from freecodecamp.org
