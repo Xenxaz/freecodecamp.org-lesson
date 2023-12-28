@@ -1,2 +1,2 @@
 # freecodecamp.org-lesson
-repository to store source code for reviewing from freecodecamp.org
+repository to store source code from freecodecamp.org for reviewing
