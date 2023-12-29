@@ -10,13 +10,13 @@
     <div class="container">
         <header class="header">
             <h1 id="title">Video Games Comsumer Spending Survey</h1>
-            <p id="description">This survey gathes data about consumer spending on video games for statistical purposes.
+            <p id="description">This survey gathers data for statistical purposes.
             </p>
         </header>
         <form id="survey-form">
             <div class="form-group">
-                <label id="name-label" for="name">Name</label>
-                <input id="name" type="text" minlength="4" placeholder="Enter your username" required />
+                <label id="name-label" for="name">Username</label>
+                <input id="name" type="text" placeholder="Enter your username" required />
             </div>
             <div class="form-group">
                 <label id="email-label" for="email">Email </label>
@@ -39,31 +39,43 @@
                 </select>
             </div>
             <div class="form-group">
-                <fieldset>
-                    <legend>How much do you spend money on games?</legend>
-
-                    <input type="radio" name="spending" />$1-$100
-                    <input type="radio" name="spending" />$101-$200
-                    <input type="radio" name="spending" />$201-$500
-                    <input type="radio" name="spending" />$501-$1000
-                    <input type="radio" name="spending" />More than $1000
-                </fieldset>
+                <label>How much do you spend money on games?</label>
+                <div class="block"><input type="radio" name="spending" /><span class="following-text">$1 - $100</span>
+                </div>
+                <div class="block"><input type="radio" name="spending" /><span class="following-text">$101 -
+                        $200</span></div>
+                <div class="block"><input type="radio" name="spending" /><span class="following-text">$201 -
+                        $500</span></div>
+                <div class="block"><input type="radio" name="spending" /><span class="following-text">$501 -
+                        $1000</span></div>
+                <div class="block"><input type="radio" name="spending" /><span class="following-text">More than
+                        $1000</span></div>
             </div>
             <div class="form-group">
-                <fieldset>
-                    <legend>What type of content do you spend money on (multiple choices) </legend>
-                    <input type="checkbox" value="key" /> Buying game itself
-                    <input type="checkbox" value="BP" /> Game Pass/Battle Pass
-                    <input type="checkbox" value="skin" /> Skins (Character/Item Skins)
-                    <input type="checkbox" value="mech" /> In-game mechanics (Example: Enchanting, Forge etc.)
-                    <input type="checkbox" value="spd" /> Speed-up
-                    <input type="checkbox" value="rand" /> Gasha/Lootbox
-                </fieldset>
+                <label>What type of content do you spend money on
+                    <br />
+                    <span class="additional">(multiple choices)</span>
+                </label>
+                <div class="block"><input type="checkbox" value="key" /><span class="following-text">Buying game
+                        itself</span></div>
+                <div class="block"><input type="checkbox" value="BP" /><span class="following-text">Game Pass/Battle
+                        Pass</span></div>
+                <div class="block"><input type="checkbox" value="skin" /><span class="following-text">Skins
+                        (Character/Item Skins)</span></div>
+                <div class="block"><input type="checkbox" value="mech" /><span class="following-text">In-game mechanics
+                        (Example:
+                        Enchanting, Forge etc.)</span></div>
+                <div class="block"><input type="checkbox" value="spd" /><span class="following-text">Speed-up</span>
+                </div>
+                <div class="block"><input type="checkbox" value="rand" /><span
+                        class="following-text">Gasha/Lootbox</span></div>
             </div>
             <div class="form-group">
-                <label for="additional">Provide us more info. (game/genre you paid for)</label>
+                <label for="additional">Provide us more info. <span class="additional">(game/genre you paid
+                        for)</span></label>
                 <textarea id="additional" placeholder="Enter your information here"></textarea>
             </div>
+
         </form>
         <input type="submit" value=" Submit " />
     </div>
