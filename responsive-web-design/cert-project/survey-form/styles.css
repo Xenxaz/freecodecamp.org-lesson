@@ -1,0 +1,10 @@
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group {
+    background-color: #222222DF;
+    color: white;
+}

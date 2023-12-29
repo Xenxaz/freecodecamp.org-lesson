@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Video Games Comsumer Spending Survey</h1>
+            <p id="description">This survey gathes data about consumer spending on video games for statistical purposes.
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" minlength="4" placeholder="Enter your username" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email </label>
+                <input id="email" type="email" placeholder="Enter your Email" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age </label>
+                <input id="number" type="number" placeholder="Age" min="13" max="80" required />
+            </div>
+            <div class="form-group">
+                <label id="dropdown-label" for="dropdown">How often do you play video games</label>
+                <select>
+                    <option>(select one)</option>
+                    <option>Daily</option>
+                    <option>3-6 days a week</option>
+                    <option>Once or twice a week</option>
+                    <option>Several times a month</option>
+                    <option>Once or twice a month</option>
+                    <option>Rarely</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <fieldset>
+                    <legend>How much do you spend money on games?</legend>
+
+                    <input type="radio" name="spending" />$1-$100
+                    <input type="radio" name="spending" />$101-$200
+                    <input type="radio" name="spending" />$201-$500
+                    <input type="radio" name="spending" />$501-$1000
+                    <input type="radio" name="spending" />More than $1000
+                </fieldset>
+            </div>
+            <div class="form-group">
+                <fieldset>
+                    <legend>What type of content do you spend money on (multiple choices) </legend>
+                    <input type="checkbox" value="key" /> Buying game itself
+                    <input type="checkbox" value="BP" /> Game Pass/Battle Pass
+                    <input type="checkbox" value="skin" /> Skins (Character/Item Skins)
+                    <input type="checkbox" value="mech" /> In-game mechanics (Example: Enchanting, Forge etc.)
+                    <input type="checkbox" value="spd" /> Speed-up
+                    <input type="checkbox" value="rand" /> Gasha/Lootbox
+                </fieldset>
+            </div>
+            <div class="form-group">
+                <label for="additional">Provide us more info. (game/genre you paid for)</label>
+                <textarea id="additional" placeholder="Enter your information here"></textarea>
+            </div>
+        </form>
+        <input type="submit" value=" Submit " />
+    </div>
+</body>
+
+</html>
