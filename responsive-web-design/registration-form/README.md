@@ -1,6 +1,6 @@
 You can use HTML forms to collect information from people who visit your webpage
 using <form> element as parent element and nest <input> element inside for user input
-<input> element have many various types for example:
+<input> elements have many various types for example:
 
 - <input type="text"> used for collecting text data type.
 - <input type="number"> used for collecting numeric data type.
