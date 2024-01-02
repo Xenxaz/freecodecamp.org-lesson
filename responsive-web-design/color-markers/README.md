@@ -1,1 +1,1 @@
-This directory contains examples of color attributes using different values to express such as color tags, rgba, hex, hsla (hsla stands for hue, saturation, lightness, and alpha)
+This directory contains examples of color attributes using different values to express such as color tags, rgba, hex, hsla (hsla stands for hue, saturation, lightness, and alpha which is transparency)
